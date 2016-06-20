@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/main3"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="horizontal" >
+    <!-- android:background="@drawable/a_connect_btn_11" -->
+
+    <!-- <Button
+        
+        android:id="@+id/Connect"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Connect"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" /> -->
+	<Button
+	    android:id="@+id/Connect"
+	    android:layout_width="175dp"
+	    android:layout_height="50dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="100dp"
+	    android:background="@drawable/a_connect_btn_11"
+	    android:width="200dip" />
+
+	<Button
+	    android:id="@+id/exit"
+	    android:layout_width="175dp"
+	    android:layout_height="50dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginBottom="100dp"
+	    android:background="@drawable/a_connectbtn11"
+	    android:width="200dip" />
+
+     	<!-- <Button
+        android:id="@+id/exit"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        
+        android:text="EXIT"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"/> -->
+        <!-- android:layout_weight="0.76" -->
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a_connect"
+    android:orientation="vertical" >
+    
+    <EditText
+	  android:layout_gravity="right"
+	  android:layout_marginTop="266dp"
+	  android:layout_marginRight="75dp"
+	  android:layout_width="380dp"
+	  android:layout_height="60dp" 
+	  android:id="@+id/IpAddress" 
+	  android:background="@null" 
+	  android:imeOptions="actionDone" 
+	  android:maxLength="15" 
+	  android:width="200dip" 
+	  android:singleLine="true"
+	  android:hint="Server IP Address"
+      android:textSize="20sp">
+       
+	</EditText>
+	
+    <Button
+    android:layout_width="170dp"
+	android:layout_height="80dp"
+	android:layout_marginTop="35dp"
+	android:layout_marginRight="78dp"
+	android:layout_gravity="right"
+	android:id="@+id/secondConnect" 
+	android:width="200dip" 
+	android:background="@drawable/s_connect_btn_11" >
+	</Button>
+
+</LinearLayout>
